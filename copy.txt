@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio CV</title>
+ 
+    <link href="/css/css-gg.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/resources/logito.svag" type="image/svg">
+    <link  rel="stylesheet" href="/css/Site.css">
+    <link  rel="stylesheet" href="/CSS/mobile.css">
+    <script src="/js/site.js"></script>
+</head>
+<body>
+    <div class="main-content">
+        <aside>
+            <div class="profile">
+                <img src="/resources/avatar-116x116-02-2x.png" id="photo-profile" class="my-photo" />
+                <div>
+                    <h1 class="title">jonathan vega gomez </h1>
+                    <div class="badge-profile">Programador</div>
+                    <div class="social">
+                        <a href="https://facebook.com/?locale=es_LA" target="_blank"><i class="gg-facebook"></i></a>
+                        <a href="x.com" target="_blank"><i class="gg-twitter"></i></a>
+                        <a href="https://youtu.be/x6UvVnZ-VBE?si=JuRTShvvwGP6TkjO" target="_blank"><i class="gg-youtube"></i></a>
+                        <a href="pokemon-go.com" target="_blank"><i class="gg-pokemon"></i></a>
+                    </div>
+                </div>
+                <div class="info">
+                    <ul class="contacts-block">
+                        <li class="contacts-block-item"><i class="gg-calendar"></i>&nbsp;&nbsp;17 de Enero del 2025</li>
+                        <li class="contacts-block-item"><i class="gg-pin"></i>&nbsp;&nbsp;Puebla, Puebla</li>
+                        <li class="contacts-block-item"><i class="gg-mail"></i>&nbsp;&nbsp;<a href="mailto:utp0156755@alumno.utpuebla.edu.mx">UTP0155232@alumno.utpuebla.edu.x</a></li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;&nbsp;+52221895103</li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;&nbsp;<a href="skype:JorgeTorres">Skype: JVG</a></li>
+                    </ul>
+                </div>
+                <a class="btn" href="">Descargar CV</a>
+            </div>
+        </aside>
+
+        <!--<section class="resume">
+            <header>
+                <div class="menu-circle">
+                    <i class="gg-menu-oreos" onclick="toggleMenu()"></i>
+                </div>
+            </header>
+        </section>-->
+
+  
+            <div class="main-content">
+                <section class="resume">
+                    <div>
+
+                    </div>
+
+                    <style>
+                        
+                    </style>
+                    
+                    <header>
+                        <div class="menu-circle">
+                            <i class="gg-menu-oreos" onclick="toggleMenu()"></i>
+                        </div>
+                        <nav id="menu" class="menu-options hidden">
+                            <a href="/portafolio.html">Mis Habilidades</a>
+                            <a href="#experiencia">Mi Experiencia</a>
+                            <a href="#educacion">Educación</a>
+                            <a href="#contacto">Contacto</a>
+                        </nav>
+                    </header>
+                    
+                    
+                    
+                    <script>
+                        function toggleMenu() {
+                            const menu = document.getElementById('menu');
+                            menu.classList.toggle('visible');
+                            menu.classList.toggle('hidden');
+                        }
+                        
+                    </script>
+                    
+                    
+                    
+                    <h2>Acerca de mí</h2>
+                    <p>
+                        El currículum vitae (CV) es una herramienta fundamental para mostrar nuestras habilidades, experiencias y logros profesionales. Mantenerlo actualizado es crucial en un entorno laboral dinámico y competitivo, ya que nos permite estar preparados para aprovechar oportunidades en cualquier momento.
+                    </p>
+                    <p>
+                        Un CV actualizado refleja nuestro crecimiento profesional, destacando nuevas competencias adquiridas, certificaciones, proyectos recientes y responsabilidades asumidas. Esto es especialmente relevante en sectores donde las tendencias cambian rápidamente, como la tecnología, la educación o el marketing, ya que demuestra adaptabilidad y compromiso con el aprendizaje continuo.
+                    </p>
+                    
+                    
+                    
+                    
+
+                    <div class="services-content">
+                        <h2>Mis Habilidades</h2>
+                        <div class="my-services">   
+                            <div class="service-card">
+                                <span class="gg-pencil"></span>
+                                <div>
+                                    <h3>Diseño Web</h3>
+                                    <p>Experiencia en crear páginas web atractivas y funcionales con HTML, CSS y frameworks modernos como Angular, asegurando una experiencia de usuario impecable.</p>
+                                </div>
+                            </div>
+                            <div class="service-card">
+                                <span class="gg-search"></span>
+                                <div>
+                                    <h3>SEO y Posicionamiento</h3>
+                                    <p>Habilidades en optimización para motores de búsqueda (SEO) para garantizar que los sitios alcancen una alta visibilidad y atraigan tráfico orgánico.</p>
+                                </div>
+                            </div>
+                            <div class="service-card">
+                                <span class="gg-terminal"></span>
+                                <div>
+                                    <h3>Desarrollo Front-End</h3>
+                                    <p>Especialización en Angular para crear interfaces rápidas, dinámicas y escalables que cumplen con los requisitos del cliente.</p>
+                                </div>
+                            </div>
+                            <div class="service-card">
+                                <span class="gg-work-alt"></span>
+                                <div>
+                                    <h3>Gestión de Proyectos</h3>
+                                    <p>Organización eficiente de proyectos desde la planificación hasta la implementación, trabajando en equipo para cumplir con los plazos y objetivos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-content">
+                        <h2>resume</h2>
+                        <div>
+                            <div>
+                                <h2>
+                                    <i class="fa fa-user-graduate"></i>educacion
+                                </h2>
+                                <div class="timeline">
+                                    <article class="timeline_item">
+                                        <h5 class="title title--h5 timeline__title">Universidad</h5>
+                                        <span class="timeline_period">2007-2009</span>
+                                        <p class="timeline_description">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nam magni perspiciatis totam ducimus iste nesciunt error quos debitis velit molestias tenetur nisi ratione et ut architecto, nihil corrupti alias.
+                                        </p>
+
+                                    </article>
+
+                                    <article class="timeline_item">
+                                        <h5 class="title title--h5 timeline__title">Curso 1</h5>
+                                        <span class="timeline_period">2005-2007</span>
+                                        <p class="timeline_description">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nam magni perspiciatis totam ducimus iste nesciunt error quos debitis velit molestias tenetur nisi ratione et ut architecto, nihil corrupti alias.
+                                        </p>
+
+                                    </article>
+                                
+
+                                    <article class="timeline_item">
+                                        <h5 class="title title--h5 timeline__title">curso 2</h5>
+                                        <span class="timeline_period">2007-2009</span>
+                                        <p class="timeline_description">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nam magni perspiciatis totam ducimus iste nesciunt error quos debitis velit molestias tenetur nisi ratione et ut architecto, nihil corrupti alias.
+                                        </p>
+
+                                    </article>
+
+
+
+
+                                </div>
+
+                            </div>
+
+
+                            <div>
+                                <h2><i class="fa fa-user-graduate"></i>Mi experiencia</h2>
+                                <div class="timeline">
+
+                                    <article class="timeline_item">
+                                        <h5 class="title title--h5 timeline__title">curso 2</h5>
+                                        <span class="timeline_period">2007-2009</span>
+                                        <p class="timeline_description">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nam magni perspiciatis totam ducimus iste nesciunt error quos debitis velit molestias tenetur nisi ratione et ut architecto, nihil corrupti alias.
+                                        </p>
+
+                                        <article class="timeline_item">
+                                            <h5 class="title title--h5 timeline__title">curso 2</h5>
+                                            <span class="timeline_period">2007-2009</span>
+                                            <p class="timeline_description">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nam magni perspiciatis totam ducimus iste nesciunt error quos debitis velit molestias tenetur nisi ratione et ut architecto, nihil corrupti alias.
+                                            </p>
+        
+                                        </article>
+        
+
+                                        
+                                        <article class="timeline_item">
+                                            <h5 class="title title--h5 timeline__title">curso 2</h5>
+                                            <span class="timeline_period">2007-2009</span>
+                                            <p class="timeline_description">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nam magni perspiciatis totam ducimus iste nesciunt error quos debitis velit molestias tenetur nisi ratione et ut architecto, nihil corrupti alias.
+                                            </p>
+        
+                                        </article>
+        
+        
+
+                                    </article>
+
+
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+                </section>
+
+            </div>
+
+
+        <section></section>
+        <footer></footer>
+    </div>
+
+</body>
+</html>
